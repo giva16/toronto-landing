@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    color:#E5E7EB;
 }
 
 ul {
@@ -92,7 +93,7 @@ figcaption {
     flex-shrink: 2;
 }
 
-.intro-text button {
+.btn-signup {
     font-size: 24px;
     background-color: #3882F6;
     border: none;
@@ -108,7 +109,6 @@ figcaption {
     min-width: 400px;
     height: 500px;
     flex: 1 1 auto;
-    color: black;
     justify-content: center;
     align-items: center;
 }
@@ -118,6 +118,7 @@ figcaption {
     align-self: center;
     text-align: center;
     padding-top: 30px;
+    color: #1F2937;
 }
 
 .information {
@@ -157,10 +158,15 @@ figcaption {
     align-items: center;
     background-color: #E5E7EB;
 }
+
+.quote {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 blockquote {
-    gap: 15px;
-    justify-content: center;
-    padding-top: 100px;
+    gap: 50px;
+    color: #1F2937;
 }
 blockquote p {
     font-size: 36px;
@@ -173,4 +179,33 @@ blockquote cite {
     font-weight: bold;
     text-align: right;
     padding: 0px 20px;
+}
+
+.call-to-action {
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    max-width: 50%;
+}
+
+.card button {
+    border: white 2px solid;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 30px 0;
 }
